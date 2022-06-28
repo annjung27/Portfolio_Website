@@ -1,0 +1,71 @@
+#portfolio {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #525252;
+    margin-top: 4rem;
+}
+
+.category-title {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 10rem;
+}
+
+.project-item {
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 5rem;
+}
+
+
+.project-info {
+    width: 50%;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.carousel-wrapper {
+    width: 50%;
+    height: 400px;    
+}
+
+.carousel {
+    width: 100%;
+    height: 100%;    
+}
+
+.carouselItem img {
+    width: 100%;
+    height: 400px;
+}
+
+
+.project-info .title {
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+}
+
+.project-info .type {
+    font-size: 16px;
+    letter-spacing: 0.2rem;
+}
+
+.view-button {
+    color: #525252;
+    background-color: transparent;
+    border: 1px solid #525252 ;
+    margin-right: 15px;
+    margin-top: 20px;    
+}
+
+.view-button:hover {
+    background-color: #525252;
+}
+

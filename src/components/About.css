@@ -1,0 +1,42 @@
+#about {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #525252;
+    margin-top: 4rem;
+}
+
+.category-title {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 10rem;
+}
+
+.profile {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 60%;    
+    margin: 0 auto;
+}
+
+.profile-text {
+    width: 50%;
+    margin-right: 40px;
+}
+
+.profile-img {
+    width: 20%;
+}
+
+.profile-img img {
+    border-radius: 50%;   
+    width: 100%;    
+}
+
+.paragraph {
+    font-size: 14px;
+}

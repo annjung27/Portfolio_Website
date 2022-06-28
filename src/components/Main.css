@@ -1,0 +1,34 @@
+
+.main-background {
+    height: 100vh;
+    width: 90%;
+    color: #ffffff;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+    
+}
+
+.main-text {
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+
+}
+
+.main-text h2 {
+    background-color: transparent;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1rem;
+    margin-bottom: 20px;
+}
+
+.main-text p {
+    background-color: transparent;
+    font-size: 18px;
+    letter-spacing: 1rem;
+}
