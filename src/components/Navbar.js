@@ -14,7 +14,7 @@ function Navbar() {
       <nav className='navbar'>
       
         <div className='navbar-logo-and-icon'>          
-            <Link to='/' className='navbar-logo'>
+            <Link to='#main' className='navbar-logo'>
               ANNIE YOUNJU JUNG
             </Link>
             <div className='menu-icon' onClick={handleClick}>
@@ -24,19 +24,19 @@ function Navbar() {
         
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item' onClick={closeMobileMenu}>
-              <Link to='#main' className='nav-links' smooth>Home</Link>
+              <Link to='#main' className='nav-links' smooth="true">Home</Link>
             </li>
             <li className='nav-item' onClick={closeMobileMenu}>
-              <Link to='#about' className='nav-links' smooth>About</Link>
+              <Link to='#about' className='nav-links' smooth="true">About</Link>
+            </li>
+            <li className='nav-item' onClick={closeMobileMenu}>
+              <Link to='#skills' className='nav-links' smooth="true">Skills</Link>
             </li>
               <li className='nav-item' onClick={closeMobileMenu}>
-              <Link to='#portfolio' className='nav-links' smooth>Portfolio</Link>
-            </li>
+              <Link to='#portfolio' className='nav-links' smooth="true">Portfolio</Link>
+            </li>            
             <li className='nav-item' onClick={closeMobileMenu}>
-              <Link to='#skills' className='nav-links' smooth>Skills</Link>
-            </li>
-            <li className='nav-item' onClick={closeMobileMenu}>
-              <Link to='#contact' className='nav-links' smooth>Contact</Link>
+              <Link to='#contact' className='nav-links' smooth="true">Contact</Link>
             </li>
         </ul>
           

@@ -1,3 +1,4 @@
+
 #skills {
     width: 100%;
     display: flex;
@@ -5,13 +6,108 @@
     align-items: center;
     justify-content: center;
     color: #525252;
-    margin-top: 4rem;
-    background-color: antiquewhite;
+    margin-top: 10rem;
 }
 
-.skill-items {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+ul, li {
+    list-style: none;
+    padding: 0;
 }
 
+
+.card-group {
+    width: 80%;
+}
+
+.card {
+    margin-right: 25px;
+}
+
+.card:last-child {
+    margin-right: 0;
+}
+
+.card-header {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.15rem;
+    background-color: #F15412;
+    color: white;
+}
+
+.card-text {
+    width: 60%;
+    margin:0 auto;
+    margin-top: 16px;
+}
+
+
+.skills-items li {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.skills-items i {
+    margin-right: 8px;
+}
+
+@media screen and (max-width:1010px) {
+    .card-group {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .card {
+        margin-right: 0;
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    .card-text {
+        width: 100%;
+    }
+
+    .skills-items {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .skills-items i {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+
+    .skills-items li {
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 10px;
+    }
+
+}
+
+@media screen and (max-width:735px) {
+
+    .card-header {
+        font-size: 16px;
+    
+    }
+
+    .skills-items li {
+        font-size: 14px;
+    
+    }
+}
+
+@media screen and (max-width:576px) {
+    .skills-items li {
+        font-size: 12px;
+    
+    }
+
+}

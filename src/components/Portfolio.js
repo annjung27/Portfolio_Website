@@ -6,14 +6,14 @@ import { Button, Carousel} from 'react-bootstrap';
 function Portfolio() {
   return (
     <section id="portfolio">
-        <p className='category-title'>02 Portfolio</p>
+        <p className='category-title'>03 portfolio</p>
 
 {/* ---------------Project 1 ------------------------------------------ */}
         <div className='project-item'>
           <div className='project-info'>
             <h3 className='title'>Alexander Realty</h3>
             <p className='type'>Personal Project</p>
-            <p>React.js | JavaScript | HTML | CSS | Responsive Web Design</p>
+            <p className='languages'>React.js | JavaScript | HTML | CSS | Responsive Web Design</p>
             <p className='detail'>
               Alexander Realty is a landing page for the real estate company website built with React.js.
             </p>
@@ -56,7 +56,7 @@ function Portfolio() {
           <div className='project-info'>
             <h3 className='title'>Something Learned Everyday</h3>
             <p className='type'>Personal Project</p>
-            <p>Java | Spring MVC | Spring Boot | JSP | MySQL | RTF </p>
+            <p className='languages'>Java | Spring MVC | Spring Boot | JSP | MySQL | RTF </p>
             <p className='detail'>
               Something Learned Everyday is a note taking blog for users to create and save notes about their daily learning and share them with other users.
               Users can create and save contents to database, read, view, retrieve them from the database, and edit and delete contents.
@@ -100,7 +100,7 @@ function Portfolio() {
           <div className='project-info'>
             <h3 className='title'>Yoga Together</h3>
             <p className='type'>Personal Project</p>
-            <p>React.js | HTML | CSS | Node.js | Express | Mongoose | MongoDB | Bootstrap</p>
+            <p className='languages'>React.js | HTML | CSS | Node.js | Express | Mongoose | MongoDB | Bootstrap</p>
             <p className='detail'>
               Yoga Together is a e-commers website for virtual yoga classes built with MERN stack.
               Users can view list of virtual yoga classes and teachers' profile, and add them into 'My Class' for enrollment. Enrolled students can communicate with other students about their daily life and yoga story by creating, viewing, editing, deleting posts in Community Dashboard page.

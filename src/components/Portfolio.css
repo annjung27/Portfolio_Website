@@ -5,14 +5,9 @@
     align-items: center;
     justify-content: center;
     color: #525252;
-    margin-top: 4rem;
+    margin-top: 10rem;
 }
 
-.category-title {
-    font-size: 16px;
-    font-style: italic;
-    margin-bottom: 10rem;
-}
 
 .project-item {
     width: 80%;
@@ -27,7 +22,7 @@
 .project-info {
     width: 50%;
     height: 100%;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 .carousel-wrapper {
@@ -42,7 +37,8 @@
 
 .carouselItem img {
     width: 100%;
-    height: 400px;
+    height: 350px;
+    object-fit: fill;
 }
 
 
@@ -57,15 +53,91 @@
     letter-spacing: 0.2rem;
 }
 
-.view-button {
-    color: #525252;
-    background-color: transparent;
-    border: 1px solid #525252 ;
+.project-info .languages {
+    font-size: 16px;
+}
+
+.project-info .detail {
+    font-size: 16px;    
+    line-height: 1.6rem;    
+}
+
+.view-button { 
+    background-color: #F15412;
+    border: none;   
+    font-size: 15px;
+    padding: 10px 20px;
     margin-right: 15px;
-    margin-top: 20px;    
+    margin-top: 20px;      
 }
 
 .view-button:hover {
-    background-color: #525252;
+    color: #525252;
+    background-color: transparent;
+    border: 1px solid #525252 ;    
 }
 
+
+@media screen and (max-width:992px) {
+    .project-item {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;    
+    }
+    
+    
+    .project-info {
+        width: 60%;
+        margin-right: 0;
+    }
+    
+    .carousel-wrapper {
+        width: 60%;    
+    }    
+    
+    .project-info .title {
+        font-size: 20px;        
+    }
+    
+    .project-info .type {
+        font-size: 14px;
+    }
+
+    .project-info .languages {
+        font-size: 14px;
+    }
+
+    .project-info .detail {
+        font-size: 14px;    
+        line-height: 1.6rem;    
+    }
+    
+}
+
+@media screen and (max-width:576px) {
+    .project-info {
+        width: 90%;
+        margin-right: 0;
+    }
+    
+    .carousel-wrapper {
+        width: 90%;    
+    }    
+    
+    .project-info .title {
+        font-size: 18px;        
+    }
+    
+    .project-info .type {
+        font-size: 12px;
+    }
+
+    .project-info .languages {
+        font-size: 13px;
+    }
+
+    .project-info .detail {
+        font-size: 13px;      
+    }
+}

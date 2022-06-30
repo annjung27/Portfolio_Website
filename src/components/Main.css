@@ -1,4 +1,14 @@
 
+#main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #525252;
+}
+
 .main-background {
     height: 100vh;
     width: 90%;
@@ -7,7 +17,7 @@
     position: relative;
     text-align: center;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
-    
+    object-fit: cover;  
 }
 
 .main-text {
@@ -24,11 +34,40 @@
     font-size: 30px;
     font-weight: 500;
     letter-spacing: 1rem;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .main-text p {
     background-color: transparent;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 1rem;
+}
+
+.main-button {
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid #ffffff;    
+    font-size: 15px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    transition: all 0.3s ease-out;
+}
+
+.main-button:hover {
+    background-color: #F15412;
+    border: none;
+}
+
+@media screen and (max-width:576px) {
+    .main-text h2 {    
+        font-size: 20px;    
+        line-height: 2rem;
+        letter-spacing: 0.5rem;
+    }
+    
+    .main-text p {
+        background-color: transparent;
+        font-size: 15px;
+        letter-spacing: 0.5rem;
+    }
 }

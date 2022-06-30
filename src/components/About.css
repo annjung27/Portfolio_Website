@@ -6,30 +6,29 @@
     align-items: center;
     justify-content: center;
     color: #525252;
-    margin-top: 4rem;
+    margin-top: 10rem;
 }
 
 .category-title {
-    font-size: 16px;
+    font-size: 20px;
     font-style: italic;
     margin-bottom: 10rem;
 }
 
 .profile {
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    width: 60%;    
-    margin: 0 auto;
 }
 
 .profile-text {
-    width: 50%;
-    margin-right: 40px;
+    width: 40%;
 }
 
 .profile-img {
-    width: 20%;
+    width: 10%;
+    margin-bottom: 5rem;
 }
 
 .profile-img img {
@@ -38,5 +37,38 @@
 }
 
 .paragraph {
-    font-size: 14px;
+    font-size: 16px;
+    line-height: 1.6rem;
+}
+
+.emailAndLocation {
+    font-size: 16px;
+}
+
+@media screen and (max-width:992px) {        
+    .profile-text {
+        width: 50%;
+    }
+    
+    .profile-img {
+        width: 25%;
+        margin-bottom: 5rem;
+    } 
+}
+
+@media screen and (max-width:576px) {
+    .category-title {
+        font-size: 18px;
+        font-style: italic;
+        margin-bottom: 10rem;
+    }
+
+    .paragraph {
+        font-size: 12px;
+        line-height: 1.5rem;
+    }
+
+    .emailAndLocation {
+        font-size: 12px;
+    }
 }
