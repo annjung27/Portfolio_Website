@@ -10,7 +10,7 @@ function Skills() {
             <CardGroup className='card-group'>
                 <Card className='card'>
                     <Card.Header className='card-header'>Frontend</Card.Header>
-                    <Card.Body>
+                    
                     <div className='card-text'>
                         <ul className='skills-items'>
                             <li><i className="fa-brands fa-html5"></i><span>HTML</span></li>
@@ -20,12 +20,12 @@ function Skills() {
                             <li><i className="fa-brands fa-bootstrap"></i>Bootstrap</li>                            
                         </ul>
                     </div>
-                    </Card.Body>
+                    
                     
                 </Card>
                 <Card className='card'>
                     <Card.Header className='card-header'>Backend</Card.Header>
-                    <Card.Body>                    
+                                        
                     <div className='card-text'>
                         <ul className='skills-items'>
                             <li><i className="fa-brands fa-java"></i>Java</li>
@@ -38,19 +38,17 @@ function Skills() {
                             <li><i className="fa-solid fa-database"></i>MongoDB</li>                            
                         </ul>                    
                     </div>
-                    </Card.Body>
                     
                 </Card>
                 <Card className='card'>
                     <Card.Header className='card-header'>Other</Card.Header>
-                    <Card.Body>                    
+                
                     <div className='card-text'>
                         <ul className='skills-items'>
                             <li><i className="fa-brands fa-git-square"></i>Git</li>
                             <li><i className="fa-brands fa-github"></i>GitHub</li>                                                        
                         </ul>
                     </div>
-                    </Card.Body>
                     
                 </Card>
                 

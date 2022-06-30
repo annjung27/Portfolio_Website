@@ -42,6 +42,10 @@ ul, li {
     margin-top: 16px;
 }
 
+.skills-items {
+    width: 100%;
+}
+
 
 .skills-items li {
     font-size: 18px;
@@ -105,9 +109,24 @@ ul, li {
 }
 
 @media screen and (max-width:576px) {
-    .skills-items li {
-        font-size: 12px;
-    
+
+    .skills-items {
+        display: flex;
+        flex-direction: column;
     }
+
+    .skills-items li {
+        font-size: 14px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+    }
+
+    .skills-items i {
+        margin-right: 8px;
+    }
+    
 
 }
