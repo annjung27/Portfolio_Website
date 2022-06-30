@@ -60,14 +60,14 @@
 
 @media screen and (max-width:576px) {
     .main-text h2 {    
-        font-size: 20px;    
+        font-size: 16px;    
         line-height: 2rem;
-        letter-spacing: 0.5rem;
+        letter-spacing: 0.3rem;
     }
     
     .main-text p {
         background-color: transparent;
-        font-size: 15px;
-        letter-spacing: 0.5rem;
+        font-size: 12px;
+        letter-spacing: 0.3rem;
     }
 }
