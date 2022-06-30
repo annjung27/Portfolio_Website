@@ -29,21 +29,21 @@ ul, li {
 
 .card-header {
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: 0.15rem;
-    background-color: #F15412;
+    background-color:#F15412;
     color: white;
 }
 
 .card-text {
-    width: 60%;
-    margin:0 auto;
-    margin-top: 16px;
+    width: 100%;
 }
 
 .skills-items {
-    width: 100%;
+    width: 60%;
+    margin: 0 auto;
+    padding: 25px;
 }
 
 
@@ -113,6 +113,8 @@ ul, li {
     .skills-items {
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
     }
 
     .skills-items li {
